@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <style>
+    .cal {
+      width: 19%;
+      display: flex;
+      background-color: rgb(12, 11, 11);
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: auto;
+      border-radius: 10px;
+      ;
+    }
+
+
+    button {
+      background-color: rgb(251, 252, 250);
+      margin: 15px;
+      padding: 10px;
+      font-size: 15px;
+      line-height: 20px;
+      border-radius: 10px;
+
+    }
+
+    input {
+      border: 2px solid black;
+      border-radius: 10px;
+      height: 70px;
+      background-color: #f1f1f1;
+      width: 249px;
+    }
+  </style>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h1 style="text-align:center; color:rgb(0, 0, 0);">Smatech Calculator</h1>
+
+  <div class="cal">
+    <input type="text" name="screen" id="screen" onclick="myFunction()">
+    <button value="9">9</button>
+    <button value="8">8</button>
+    <button value="7">7</button>
+    <button value="+"><b>+</b></button>
+    <button value="6">6</button>
+    <button value="5">5</button>
+    <button value="4">4</button>
+    <button value="-"><b>-</b></button>
+    <button value="3">3</button>
+    <button value="2">2</button>
+    <button value="1">1</button>
+    <button value="*"><b>X</b></button>
+    <button value="%"><b>%</b></button>
+    <button value="0">0</button>
+    <button value="."><b>.</b></button>
+    <button value="="><b>=</b></button>
+
+  </div>
+
+</body>
+
+</html>
