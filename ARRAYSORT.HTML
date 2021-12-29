@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Sort</title>
+</head>
+<body>
+    
+    <button onclick="myFunction1()">Sort Alphabtically</button>
+    <button onclick="myFunction2()">Sort Numerically</button>  
+      <p id="man"><p>
+
+        
+        <script>
+    //ARRANGING ELEMNETS INTO ALPHATIBCAL ORDER
+    /*let Family=["Aman", "Mohit", "Yogi","Bhoomi"];
+    Family.sort();
+    document.getElementById("man").innerHTML=Family;
+
+    //REVERSE
+    let Family=["Aman", "Mohit", "Yogi","Bhoomi"];
+    Family.reverse();
+    document.getElementById("man").innerHTML=Family;*/
+
+   //NUMERICAL ARRANGING
+    const Family=[1,50,30,33,37,89,90,78]; 
+
+    function myFunction1() {
+    Family.sort();
+    document.getElementById("man").innerHTML=Family;
+    }  
+
+
+    function myFunction2(){
+    Family.sort(function(a, b) { return a - b });
+    document.getElementById("man").innerHTML=Family;
+   }
+
+    </script>
+    
+   
+    
+</body>
+</html>

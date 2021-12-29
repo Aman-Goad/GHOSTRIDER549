@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <p class="example">First div element with class="example".</p>
+
+<p class="example">Second div element with class="example".</p>
+<p id="fruits"></p>
+<p id="aman"></p>
+
+<button onclick="myFunction()">Try it</button>
+    
+    <script>
+       // let fruits=["Banana","Orange","Mango","Apple"];
+        //document.getElementById("fruits").innerHTML= fruits[fruits.length-1];
+
+        let points=new Array(1,2,3,4,5);
+        document.getElementById("aman").innerHTML=points;
+
+        
+    </script>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("example");
+  x[1].innerHTML = "amn don";
+}
+</script>
+</body>
+</html>
