@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form{
+            margin:15px;;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Enter your Number</h1>
+    <form>
+<input type="number" id="factorial"><br><br>
+
+<input type="button" value= "Click Me!!" onclick="myFunction()">
+<p id="answer"></p>
+<script>
+function myFunction(){
+let x=document.getElementById("factorial").value;
+let y=1;
+for(  i = 1; i <= x;  i++){
+    y *= i;
+}
+document.getElementById("answer").innerHTML="Your Answer Is" + "<br>" + y;
+}
+</script>
+    </form>
+    <button value="aman"></button>
+</body>
+</html>
